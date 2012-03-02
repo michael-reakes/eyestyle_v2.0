@@ -1,0 +1,39 @@
+/** IE 67 Specific Fixes **/
+
+*html #Header {
+	height: 160px;
+}
+* html .Content {
+	height: 300px;
+}
+* html #Menu li a {
+	float: left;
+}
+* html .SelectGiftWrapMultiple {
+	height: 400px;
+}
+* html .Content .ProductList li {
+	height: 21em;
+}
+* html #Wrapper {
+	background-image: none;
+	border-top: 1px solid #dadada;
+}
+* html .Left .Block, * html .Right .Block {
+	background-image: none;
+}
+* html .Block.banner_home_page_top, * hmtl .Block.banner_category_page_top, * html .Block.banner_brand_page_top, * html .Block.banner_search_page_top {
+	background-image: none;
+}
+
+/** General IE Fixes **/
+.Content .FeedLink {
+	margin: 2px 4px 0 0;
+}
+#SearchForm .Button {
+	vertical-align: top;
+	margin-top: 2px;
+}
+select, input {
+	font-size: 0.95em;
+}
